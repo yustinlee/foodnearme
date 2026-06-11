@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Taco House",
+    "cuisine": "Mexican",
+    "budget": 1,
+    "rating": 4.3,
+    "tags": ["spicy", "quick", "lunch"]
+  },
+  {
+    "id": 2,
+    "name": "Sushi Place",
+    "cuisine": "Japanese",
+    "budget": 3,
+    "rating": 4.8,
+    "tags": ["healthy", "date-night"]
+  },
+  {
+    "id": 3,
+    "name": "Burger Spot",
+    "cuisine": "American",
+    "budget": 2,
+    "rating": 4.1,
+    "tags": ["quick", "comfort-food"]
+  },
+  {
+    "id": 4,
+    "name": "Luigi's Pasta",
+    "cuisine": "Italian",
+    "budget": 2,
+    "rating": 4.6,
+    "tags": ["date-night", "family"]
+  },
+  {
+    "id": 5,
+    "name": "Dragon Wok",
+    "cuisine": "Chinese",
+    "budget": 1,
+    "rating": 4.2,
+    "tags": ["quick", "lunch"]
+  },
+  {
+    "id": 6,
+    "name": "Bangkok Kitchen",
+    "cuisine": "Thai",
+    "budget": 2,
+    "rating": 4.7,
+    "tags": ["spicy", "date-night"]
+  },
+  {
+    "id": 7,
+    "name": "Curry Palace",
+    "cuisine": "Indian",
+    "budget": 2,
+    "rating": 4.8,
+    "tags": ["spicy", "family"]
+  },
+  {
+    "id": 8,
+    "name": "Mediterranean Grill",
+    "cuisine": "Mediterranean",
+    "budget": 2,
+    "rating": 4.5,
+    "tags": ["healthy", "lunch"]
+  },
+  {
+    "id": 9,
+    "name": "Pizza Corner",
+    "cuisine": "Italian",
+    "budget": 1,
+    "rating": 4.0,
+    "tags": ["quick", "comfort-food"]
+  },
+  {
+    "id": 10,
+    "name": "Ramen Express",
+    "cuisine": "Japanese",
+    "budget": 1,
+    "rating": 4.4,
+    "tags": ["quick", "lunch"]
+  },
+  {
+    "id": 11,
+    "name": "Steakhouse Prime",
+    "cuisine": "American",
+    "budget": 4,
+    "rating": 4.9,
+    "tags": ["date-night", "high-end"]
+  },
+  {
+    "id": 12,
+    "name": "Taco Fiesta",
+    "cuisine": "Mexican",
+    "budget": 2,
+    "rating": 4.5,
+    "tags": ["spicy", "family"]
+  },
+  {
+    "id": 13,
+    "name": "Pho Garden",
+    "cuisine": "Vietnamese",
+    "budget": 2,
+    "rating": 4.6,
+    "tags": ["healthy", "lunch"]
+  },
+  {
+    "id": 14,
+    "name": "Greek Table",
+    "cuisine": "Mediterranean",
+    "budget": 3,
+    "rating": 4.7,
+    "tags": ["healthy", "date-night"]
+  },
+  {
+    "id": 15,
+    "name": "BBQ Barn",
+    "cuisine": "American",
+    "budget": 2,
+    "rating": 4.4,
+    "tags": ["comfort-food", "family"]
+  },
+  {
+    "id": 16,
+    "name": "Dim Sum House",
+    "cuisine": "Chinese",
+    "budget": 2,
+    "rating": 4.5,
+    "tags": ["family", "lunch"]
+  },
+  {
+    "id": 17,
+    "name": "Spice Route",
+    "cuisine": "Indian",
+    "budget": 3,
+    "rating": 4.9,
+    "tags": ["spicy", "date-night"]
+  },
+  {
+    "id": 18,
+    "name": "Pad Thai Cafe",
+    "cuisine": "Thai",
+    "budget": 1,
+    "rating": 4.3,
+    "tags": ["quick", "spicy"]
+  },
+  {
+    "id": 19,
+    "name": "Fresh Bowl",
+    "cuisine": "Healthy",
+    "budget": 2,
+    "rating": 4.6,
+    "tags": ["healthy", "quick", "lunch"]
+  },
+  {
+    "id": 20,
+    "name": "Ocean Sushi",
+    "cuisine": "Japanese",
+    "budget": 4,
+    "rating": 4.9,
+    "tags": ["healthy", "date-night", "high-end"]
+  }
+]

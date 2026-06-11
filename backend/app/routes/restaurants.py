@@ -1,33 +1,12 @@
 from fastapi import APIRouter
-
+from app.services.data_service import load_restaurants
 from app.services.restaurant_search import filter_restaurants
 from app.services.ai_recommendation import extract_preferences
+from app.services.recommendation_service import score_restaurants
 
 router = APIRouter()
 
-restaurants = [
-    {
-        "id": 1,
-        "name": "Taco House",
-        "cuisine": "Mexican",
-        "budget": 1,
-        "rating": 4.3
-    },
-    {
-        "id": 2,
-        "name": "Sushi Place",
-        "cuisine": "Japanese",
-        "budget": 3,
-        "rating": 4.8
-    },
-    {
-        "id": 3,
-        "name": "Burger Spot",
-        "cuisine": "American",
-        "budget": 2,
-        "rating": 4.1
-    }
-]
+restaurants = load_restaurants()
 
 
 @router.get("/")
@@ -39,10 +18,9 @@ def get_restaurants():
 def recommend_restaurant(query: str):
     preferences = extract_preferences(query)
 
-    results = filter_restaurants(
+    results = score_restaurants(
         restaurants,
-        cuisine=preferences.get("cuisine"),
-        budget=preferences.get("budget")
+        preferences
     )
 
     return {
