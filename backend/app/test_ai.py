@@ -1,15 +1,12 @@
 from services.ai_recommendation import extract_preferences
+from services.google_places import search_restaurants
+results = search_restaurants(
+    latitude=34.536,
+    longitude=-117.292
+)
 
-test_inputs = [
-    "I want cheap sushi near me",
-    "fancy italian restaurant for a date night",
-    "something spicy and fast",
-    "I don’t know, just good food",
-    "budget burgers with friends",
-]
-
-for text in test_inputs:
-    print("\nINPUT:", text)
-    result = extract_preferences(text)
-    print("OUTPUT:", result)
-    print("-" * 40)
+for restaurant in results:
+    print(
+        restaurant.get("displayName", {}).get("text"),
+        restaurant.get("rating")
+    )
